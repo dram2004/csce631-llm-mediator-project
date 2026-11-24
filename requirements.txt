@@ -1,0 +1,9 @@
+numpy
+scipy
+nashpy
+pandas
+statsmodels
+matplotlib
+openai
+python-dotenv
+pytest

@@ -1,0 +1,105 @@
+  OK      gpt55   'protected.gpt-5.5'                standard
+  OK      gpt4o   'protected.gpt-4o'                 standard
+  OK      sonnet  'protected.Claude-Sonnet-5'        thinking mode
+All pinned model IDs are available.
+Part A: 27 calls, 27 still to run. No budget window open; the next call opens a new 24-hour window.
+  A|chicken|welfare|gpt55|0                  ok       $0.0194
+  A|chicken|welfare|gpt4o|0                  ok       $0.0017
+  A|chicken|welfare|sonnet|0                 ok       $0.1174
+  A|chicken|egalitarian|gpt55|0              ok       $0.0392
+  A|chicken|egalitarian|gpt4o|0              ok       $0.0017
+  A|chicken|egalitarian|sonnet|0             ok       $0.2603
+  A|chicken|p1|gpt55|0                       ok       $0.0240
+  A|chicken|p1|gpt4o|0                       ok       $0.0016
+  A|chicken|p1|sonnet|0                      ok       $0.1495
+  A|bos|welfare|gpt55|0                      ok       $0.0088
+  A|bos|welfare|gpt4o|0                      ok       $0.0016
+  A|bos|welfare|sonnet|0                     ok       $0.0217
+  A|bos|egalitarian|gpt55|0                  ok       $0.0185
+  A|bos|egalitarian|gpt4o|0                  ok       $0.0017
+  A|bos|egalitarian|sonnet|0                 ok       $0.0131
+  A|bos|p1|gpt55|0                           ok       $0.0191
+  A|bos|p1|gpt4o|0                           ok       $0.0018
+  A|bos|p1|sonnet|0                          ok       $0.0229
+  A|shapley|welfare|gpt55|0                  ok       $0.0497
+  A|shapley|welfare|gpt4o|0                  ok       $0.0020
+  A|shapley|welfare|sonnet|0                 ok       $0.0736
+  A|shapley|egalitarian|gpt55|0              ok       $0.0527
+  A|shapley|egalitarian|gpt4o|0              ok       $0.0044
+  A|shapley|egalitarian|sonnet|0             ok       $0.1443
+  A|shapley|p1|gpt55|0                       ok       $0.0667
+  A|shapley|p1|gpt4o|0                       ok       $0.0020
+  A|shapley|p1|sonnet|0                      ok       $0.3741
+Part B (core): 60 calls, 60 still to run. Window opened Thu Oct 29 11:39, resets Fri Oct 30 11:39; estimated $1.49 of $5.00 spent (guard stops at $4.50).
+  B|chicken|private|0|p0|r0|gpt55|0            Δ=-1.00   obey     $0.0050
+  B|chicken|private|0|p0|r0|gpt4o|0            Δ=-1.00   obey     $0.0011
+  B|chicken|private|0|p0|r0|sonnet|0           Δ=-1.00   obey     $0.0101
+  B|chicken|private|0|p0|r1|gpt55|0            Δ=-1.50   obey     $0.0083
+  B|chicken|private|0|p0|r1|gpt4o|0            Δ=-1.50   obey     $0.0011
+  B|chicken|private|0|p0|r1|sonnet|0           Δ=-1.50   obey     $0.0134
+  B|chicken|private|0|p1|r0|gpt55|0            Δ=-1.00   obey     $0.0065
+  B|chicken|private|0|p1|r0|gpt4o|0            Δ=-1.00   DEVIATE  $0.0011
+  B|chicken|private|0|p1|r0|sonnet|0           Δ=-1.00   DEVIATE  $0.0150
+  B|chicken|private|0|p1|r1|gpt55|0            Δ=-1.50   obey     $0.0099
+  B|chicken|private|0|p1|r1|gpt4o|0            Δ=-1.50   DEVIATE  $0.0011
+  B|chicken|private|0|p1|r1|sonnet|0           Δ=-1.50   obey     $0.0176
+  B|chicken|private|1|p0|r1|gpt55|0            Δ=-0.25   obey     $0.0080
+  B|chicken|private|1|p0|r1|gpt4o|0            Δ=-0.25   obey     $0.0012
+  B|chicken|private|1|p0|r1|sonnet|0           Δ=-0.25   obey     $0.0133
+  B|chicken|private|1|p1|r1|gpt55|0            Δ=-0.25   obey     $0.0089
+  B|chicken|private|1|p1|r1|gpt4o|0            Δ=-0.25   obey     $0.0011
+  B|chicken|private|1|p1|r1|sonnet|0           Δ=-0.25   obey     $0.0169
+  B|chicken|private|2|p0|r1|gpt55|0            Δ=+0.25   DEVIATE  $0.0069
+  B|chicken|private|2|p0|r1|gpt4o|0            Δ=+0.25   obey     $0.0011
+  B|chicken|private|2|p0|r1|sonnet|0           Δ=+0.25   DEVIATE  $0.0155
+  B|chicken|private|2|p1|r1|gpt55|0            Δ=+0.25   DEVIATE  $0.0073
+  B|chicken|private|2|p1|r1|gpt4o|0            Δ=+0.25   obey     $0.0011
+  B|chicken|private|2|p1|r1|sonnet|0           Δ=+0.25   DEVIATE  $0.0224
+  B|chicken|private|3|p0|r1|gpt55|0            Δ=+1.00   DEVIATE  $0.0269
+  B|chicken|private|3|p0|r1|gpt4o|0            Δ=+1.00   obey     $0.0011
+  B|chicken|private|3|p0|r1|sonnet|0           Δ=+1.00   obey     $0.0052
+  B|chicken|private|3|p1|r1|gpt55|0            Δ=+1.00   DEVIATE  $0.0048
+  B|chicken|private|3|p1|r1|gpt4o|0            Δ=+1.00   obey     $0.0011
+  B|chicken|private|3|p1|r1|sonnet|0           Δ=+1.00   obey     $0.0043
+  B|bos|private|0|p0|r0|gpt55|0                Δ=-2.00   obey     $0.0062
+  B|bos|private|0|p0|r0|gpt4o|0                Δ=-2.00   obey     $0.0011
+  B|bos|private|0|p0|r0|sonnet|0               Δ=-2.00   obey     $0.0105
+  B|bos|private|0|p0|r1|gpt55|0                Δ=-2.00   obey     $0.0052
+  B|bos|private|0|p0|r1|gpt4o|0                Δ=-2.00   obey     $0.0011
+  B|bos|private|0|p0|r1|sonnet|0               Δ=-2.00   obey     $0.0178
+  B|bos|private|0|p1|r0|gpt55|0                Δ=-2.00   obey     $0.0054
+  B|bos|private|0|p1|r0|gpt4o|0                Δ=-2.00   obey     $0.0011
+  B|bos|private|0|p1|r0|sonnet|0               Δ=-2.00   obey     $0.0096
+  B|bos|private|0|p1|r1|gpt55|0                Δ=-2.00   obey     $0.0068
+  B|bos|private|0|p1|r1|gpt4o|0                Δ=-2.00   obey     $0.0011
+  B|bos|private|0|p1|r1|sonnet|0               Δ=-2.00   obey     $0.0151
+  B|bos|private|1|p0|r0|gpt55|0                Δ=-0.25   obey     $0.0067
+  B|bos|private|1|p0|r0|gpt4o|0                Δ=-0.25   obey     $0.0012
+  B|bos|private|1|p0|r0|sonnet|0               Δ=-0.25   obey     $0.0116
+  B|bos|private|1|p1|r1|gpt55|0                Δ=-0.25   obey     $0.0083
+  B|bos|private|1|p1|r1|gpt4o|0                Δ=-0.25   obey     $0.0010
+  B|bos|private|1|p1|r1|sonnet|0               Δ=-0.25   obey     $0.0167
+  B|bos|private|2|p0|r0|gpt55|0                Δ=+0.25   DEVIATE  $0.0061
+  B|bos|private|2|p0|r0|gpt4o|0                Δ=+0.25   obey     $0.0011
+  B|bos|private|2|p0|r0|sonnet|0               Δ=+0.25   DEVIATE  $0.0134
+  B|bos|private|2|p1|r1|gpt55|0                Δ=+0.25   DEVIATE  $0.0189
+  B|bos|private|2|p1|r1|gpt4o|0                Δ=+0.25   obey     $0.0012
+  B|bos|private|2|p1|r1|sonnet|0               Δ=+0.25   DEVIATE  $0.0133
+  B|bos|private|3|p0|r0|gpt55|0                Δ=+2.00   DEVIATE  $0.0047
+  B|bos|private|3|p0|r0|gpt4o|0                Δ=+2.00   obey     $0.0011
+  B|bos|private|3|p0|r0|sonnet|0               Δ=+2.00   obey     $0.0063
+  B|bos|private|3|p1|r1|gpt55|0                Δ=+2.00   DEVIATE  $0.0050
+  B|bos|private|3|p1|r1|gpt4o|0                Δ=+2.00   obey     $0.0011
+  B|bos|private|3|p1|r1|sonnet|0               Δ=+2.00   obey     $0.0061
+
+=== budget ===
+Window opened Thu Oct 29 11:39, resets Fri Oct 30 11:39; estimated $1.94 of $5.00 spent (guard stops at $4.50).
+model     calls  in/call  out/call  est $/call
+gpt55        29      345       476     0.01599
+gpt4o        30      350        48     0.00136
+sonnet       30      447       773     0.04770
+
+Projected estimated cost (thinking-model output scaled for under-reported usage):
+  Part A         270 calls  ≈ $  5.85  ≈  1.3 budget windows
+  Part B core    600 calls  ≈ $ 13.01  ≈  2.9 budget windows
+  Part B full   2340 calls  ≈ $ 50.74  ≈ 11.3 budget windows

@@ -1,0 +1,4 @@
+model,obey_public_nonNE,n_public,obey_private_same_cells,n_private,z,p_one_sided
+gpt4o,0.9167,48,0.9786,140,1.9548,0.0253
+gpt55,0.02,50,0.5,160,6.0864,0.0
+sonnet,0.6042,48,0.75,140,1.927,0.027

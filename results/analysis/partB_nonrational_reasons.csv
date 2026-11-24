@@ -1,0 +1,208 @@
+model,game,condition,level,player,rec,delta,chose,rational,reason
+gpt4o,bos,private,0,1,0,-2.0,deviate,obey,"P1 likely Y; (0,0) and (2,3) for P1=Y."
+gpt4o,bos,private,1,1,1,-0.25031720137755986,deviate,obey,Maximize expected payoff: X=2.52 > Y=0.93.
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,"Recommendation aligns with maximizing expected payoff, given device probabilities favoring P1=X outcomes."
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,Expected payoff higher with Y due to mediator's signal suggesting P1=Y (potential 3) or mutual coordinator’s trust.
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,"High probability of (X,X) or (X,Y). Max expected payoff given the recommendation and their probabilities."
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,"High probability of P2 playing Y, maximizing payoff with (3,2) over (0,0)."
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,"Recommendation aligns with highest expected payoff profile (P1=X, P2=Y). Deviating risks worse payoff."
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,Device favors X for higher expected payoff; belief P2 follows recommendation supports X.
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,"Device recommends X and has high probability with expected payoff 1.831, higher than any unilateral deviation."
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,Device heavily favors X; ignoring risks lower expected payoff.
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,X recommended; it maximizes payoff with a 0.259 probability of 3 versus 0.259 probability of 2 for Y.
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,"Following mediator maximizes expected payoff given high probability of (X, Y)."
+gpt4o,bos,private,2,0,0,0.2500843739453258,obey,deviate,The device strongly favors X with higher probability and payoff compared to Y.
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,"Playing Y maximizes expected payoff given 48.1% chance of (0,0) and 25.9% of (2,3)."
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,"Given P1 likely chose X, Y maximizes payoff."
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,"Highest probability profile P1=X, P2=Y; playing Y gives potential highest payoff 3."
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,"Recommend Y is optimal, ensuring expected payoff of 1.55 compared to 0.52 for X."
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,"Recommendation Y maximizes payoff if P1 follows. High probability P1=Y, P2=Y is optimal."
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,"Maximizes expected payoff with 0.741 probability P1 plays X, yielding higher payoffs with my recommendation."
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,"High chance P1 is X, so follow mediator for max payoff."
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,Following Y optimizes payoff considering mediator likely advised P1 to play X 48.1% of the time.
+gpt4o,bos,private,2,1,1,0.2500843739453258,obey,deviate,"Higher expected payoff with P1=Y, P2=Y (0.259 * 3 = 0.777) than other outcomes."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"Device dictates 100% probability of P2=Y, maximizing expected payoff by following recommendation."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Guaranteed recommendation P1=X, P2=Y gives (0, 0)."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"The mediator's device indicates P2 will choose Y, maximizing my payoff when I choose X."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"With certainty, P2 plays Y, maximizing P1's payoff when choosing X for 0 payoff compared to Y's 0."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"Mediator always recommends X,Y giving (0,0). Deviating results in (2,3) if P2 follows advice."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"Mediator recommends X with certainty, maximizing expected payoff as P2 is guaranteed to play Y."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"Recommendation aligns with 100% chance of (P1=X, P2=Y); maximizes expected payoff given device probabilities."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"Recommendation ensures (P1:X, P2:Y). Deviating leads to (0,0); follow to ensure 0 expected payoff as P2 follows guidance."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,Device guarantees P2=Y; therefore choosing X maximizes payoff with certainty.
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"The device guarantees P2=Y, maximizing payoff by choosing X."
+gpt4o,bos,private,3,0,0,2.0,obey,deviate,"The drawn profile is (P1=X, P2=Y) with certainty, maximizing my payoff by following the recommendation."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Device dictates P1=X, P2=Y with certainty, maximizing payoff is 0 playing Y."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Mediator recommends Y, ensuring highest payoff since P1 must play X."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Recommendation guarantees specific payoff, and deviating has no benefit."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Mediator ensures P1=X, P2=Y happens; payoff is 0. Ignoring leads to same payoff."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Device dictates P1=X, P2=Y for best payoff."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Device dictates P1=X, P2=Y. Ignoring advice leads to no better payoff."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Device guarantees P1=X, P2=Y, maximizing my payoff at 0."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Mediator's device guarantees P1=X, so Y maximizes my payoff to 0 over choosing X."
+gpt4o,bos,private,3,1,1,2.0,obey,deviate,"Mediator drew P1=X, P2=Y with certainty, maximizing my payoff to 3."
+gpt4o,bos,public,1,0,0,2.0,obey,deviate,"Recommendation maximizes payoff with high probability (0.379) against P2=Y, compared to no gain with switching."
+gpt4o,bos,public,1,0,0,2.0,obey,deviate,Following recommendation maximizes expected payoff based on device probabilities.
+gpt4o,bos,public,1,1,1,2.0,obey,deviate,"Recommendation maximizes payoff given 0.379 probability of (P1=X, P2=Y) over (3,2) preference."
+gpt4o,bos,public,2,0,0,2.0,obey,deviate,Recommendation maximizes payoff with 3 if P2 follows; alternative gives no benefit.
+gpt4o,bos,public,2,0,0,2.0,obey,deviate,Following the recommendation maximizes my expected payoff given probabilities and the payoff matrix.
+gpt4o,bos,public,2,0,0,2.0,obey,deviate,Recommendation maximizes expected payoff given probabilities; Playing Y is dominated since there is no chance of P2 choosing X.
+gpt4o,bos,public,2,1,1,2.0,obey,deviate,Device favors Y; playing Y has higher expected payoff: 1.443 compared to X's 1.074.
+gpt4o,bos,public,2,1,1,2.0,obey,deviate,Following Y gives higher expected payoff based on the mediator's recommendation and the non-zero probability assigned.
+gpt4o,bos,public,3,0,0,2.0,obey,deviate,"The device guaranteed P2 plays Y, maximizing my payoff."
+gpt4o,bos,public,3,0,0,2.0,obey,deviate,"Guaranteed device outcome: P1=X, P2=Y gives highest payoff (0). Deviation offers no benefit."
+gpt4o,bos,public,3,0,0,2.0,obey,deviate,Device recommends it and offers maximum expected payoff of 0.
+gpt4o,bos,public,3,0,0,2.0,obey,deviate,"Following recommendation guarantees (0,0), deviating risks worse outcome."
+gpt4o,bos,public,3,0,0,2.0,obey,deviate,"Device suggests X,Y with probability 1. It maximizes our expected payoff without risk."
+gpt4o,bos,public,3,1,1,2.0,obey,deviate,"Recommendation ensures payoff and aligns with mediator's instruction, while X gives zero payoff."
+gpt4o,bos,public,3,1,1,2.0,obey,deviate,"Device ensures P1 plays X, maximizes P2 payoff by following the recommendation."
+gpt4o,bos,public,3,1,1,2.0,obey,deviate,"Recommendation aligns with the device probability, ensuring 0 payoff maximum in known scenarios."
+gpt4o,bos,public,3,1,1,2.0,obey,deviate,"Recommendation guarantees the highest payoff for both players: (0,0) at P1=X, P2=Y."
+gpt4o,bos,public,3,1,1,2.0,obey,deviate,"Device suggests P1=X, P2=Y; ignore loses nothing."
+gpt4o,chicken,public,0,0,1,-2.0,deviate,obey,Expected payoff higher for X (3.185) than Y (2.73).
+gpt4o,chicken,public,0,1,1,-2.0,deviate,obey,"Playing X gives expected payoff of 2.73, higher than 2.18 for Y."
+gpt4o,chicken,private,0,1,1,-1.4995417048579285,deviate,obey,P1 might choose X due to device setup; expect higher payoff by deviating.
+gpt4o,chicken,private,0,1,0,-1.0,deviate,obey,Maximize expected payoff by playing Y given observed joint probabilities and pen chance of P1 playing X.
+gpt4o,chicken,private,0,0,0,-1.0,deviate,obey,Higher payoff probabilities favor Y; recommendation doesn't guarantee optimal result.
+gpt4o,chicken,private,0,0,0,-1.0,deviate,obey,Best response if P2 follows device: higher expected payoff with Y (3.732) compared to X (3.185).
+gpt4o,chicken,private,0,1,0,-1.0,deviate,obey,Following recommendation maximizes my payoff given device distribution.
+gpt4o,chicken,private,0,1,0,-1.0,deviate,obey,Y yields higher expected payoff given the mediator's mixed strategy despite recommendation to play X.
+gpt4o,chicken,private,0,1,0,-1.0,deviate,obey,"P1 likely plays Y, max payoff with Y: 4.57 vs X: 4.09."
+gpt4o,chicken,private,0,1,0,-1.0,deviate,obey,Higher expected payoff by playing Y given probabilities: 2*0.455 + 6*0.091 > 0*0.455 + 7*0.091.
+gpt4o,chicken,private,0,1,0,-1.0,deviate,obey,Y yields a higher expected payoff (4.18) than X (0.91) given probabilities and mediator recommendation.
+gpt4o,chicken,private,1,1,1,-0.2500442712944926,deviate,obey,"Maximizes expected payoff, 0.294*7 + 0.294*0 = 2.058, over recommended action, 0.294*2 + 0.412*6 = 3.018."
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,"Y gives higher expected payoff, 5.20, than X, 1.60."
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,Higher payoff (6) is guaranteed in Nash equilibrium when both players follow mediator's recommendation.
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,Recommended Y maximizes payoff given device probabilities and payoff matrix.
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,P(Y|Y)=0.75 > P(X|Y)=0.25; higher expected payoff by following the recommendation.
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,"Given P1=Y, P2 likely plays Y due to high prob., yielding 6 payoff for Y, better than max 2 for X."
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,Playing Y maximizes the expected payoff of 5.6 versus 1.4 with X.
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,Following Y gives higher expected payoff given probabilities: 6.6 versus 3.2 for X.
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,Playing Y offers a higher expected payoff based on device probabilities and private recommendation.
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,Recommendation maximizes expected payoff: 4.8 vs 1.8 if ignored.
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,Playing Y maximizes expected payoff: 0.2*2 + 0.6*6 = 4.0.
+gpt4o,chicken,private,2,0,1,0.25,obey,deviate,"Following the recommendation maximizes expected payoff, given the device assigns a high probability to (P1=Y, P2=Y) with payoff (6, 6)."
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,"Playing Y maximizes expected payoff given mediator's 60% probability on (Y, Y) with payoff 6 for both players."
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,"Playing Y maximizes expected payoff with 6 from (P1=Y, P2=Y) over 2 from (P1=Y, P2=X)."
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,"Maximizes expected payoff; device favors (P1=Y, P2=Y) with probability 0.6, giving us a higher payoff."
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,"Following the mediator's advice maximizes expected payoff, aligning with 60% probability of (6,6) profile."
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,Playing Y maximizes expected payoff: (0.200*2)+(0.600*6)=4.0 vs X: (0.200*7)=1.4.
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,Higher expected payoff: 0.2*2 + 0.6*6 = 4.
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,"Following the mediator maximizes payoff, given a higher likelihood (0.6) of mutual Y choice with potential payoff 6."
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,"Y maximizes expected payoff, 6.0. P(YY|Y)=0.857, significant with 6 payoff. Trust mediator instruction."
+gpt4o,chicken,private,2,1,1,0.25,obey,deviate,Higher payoff expected if following the mediator recommendation to play Y.
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"The mediator's recommendation guarantees a payoff of 6, the highest possible in the matrix."
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,Device ensures P1 plays Y; Y yields higher payoff.
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"Device indicates certainty P1=Y, P2=Y with payoff (6,6). Following guarantee maximizes expected payoff."
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,Recommendation ensures maximum payoff since P2 is certain to choose Y.
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"Device suggests (Y,Y) with probability 1, maximizing P1's payoff to 6."
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"P1=Y, P2=Y is guaranteed with payoff (6, 6), maximizing the expected payoff for P1."
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"The device ensures P2=Y, so playing Y guarantees the highest payoff of 6."
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"Play Y as mediator guarantees (6,6); deviation may reduce payoff to (2,7) or less."
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"Device guarantees (Y, Y) outcome for both."
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"The device guarantees outcome (6, 6) if I play Y, maximizing my expected payoff."
+gpt4o,chicken,private,3,0,1,1.0,obey,deviate,"Device guarantees (Y,Y) with payoff (6,6). Highest payoff given recommendation and device."
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,"The device suggests P1=Y, P2=Y happens with certainty; hence playing Y yields a higher payoff."
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,"Device guarantees P1=Y, P2=Y yielding 6, which is optimal for P2."
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,"Device guarantees P1=Y and P2=Y, yielding highest payoff; ignoring recommendation risks lower payoff."
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,"Device ensures P1=Y, P2=Y, guaranteeing my highest payoff of 6 by playing Y."
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,"Device tells P1=Y, P2=Y is certain. Maximizes payoff."
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,Device ensures P1 plays Y; Y gives better payoff.
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,P1 is certain to choose Y; Y gives highest payoff.
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,"Device probability indicates P1=Y, P2=Y always, maximizing payoff for P2 at 6."
+gpt4o,chicken,private,3,1,1,1.0,obey,deviate,"Device guarantees P1=Y, P2=Y gives highest payoff (6)."
+gpt4o,chicken,public,0,1,1,1.0,obey,deviate,Following recommendation Y yields higher expected payoff given probabilities.
+gpt4o,chicken,public,1,0,1,1.0,obey,deviate,"Higher expected payoff: P1=Y (4.352), P1=X (2.94). Follow mediator's recommendation for max payoff."
+gpt4o,chicken,public,1,0,1,1.0,obey,deviate,"Y maximizes expected payoff due to high probability (41.2%) and payoff (6, 6) versus profiles with lower payoffs or zero probability."
+gpt4o,chicken,public,1,0,1,1.0,obey,deviate,"Recommendation maximizes payoff; expected value 6, higher than deviating to X."
+gpt4o,chicken,public,1,1,1,1.0,obey,deviate,"Higher expected payoff as P1 is advised to play Y, leading to (6, 6) with probability 0.412."
+gpt4o,chicken,public,1,1,1,1.0,obey,deviate,Following the device recommendation yields my highest payoff with certainty: 6.
+gpt4o,chicken,public,1,1,1,1.0,obey,deviate,Following mediator maximizes my payoff according to announced probabilities and payoff matrix.
+gpt4o,chicken,public,2,0,1,1.0,obey,deviate,Following the recommendation maximizes expected payoff (6 > 1.8) against the given strategy distribution.
+gpt4o,chicken,public,2,0,1,1.0,obey,deviate,"Following recommendation Y gives highest expected payoff, using mediator's probabilities: (0.2*2) + (0.6*6) > (0.2*7) = 4.4 > 1.4."
+gpt4o,chicken,public,2,0,1,1.0,obey,deviate,"Following the recommendation maximizes my expected payoff with a higher probability (0.6) for (6, 6)."
+gpt4o,chicken,public,2,0,1,1.0,obey,deviate,"Recommended strategy (6,6) yields higher payoff with 60% chance than ignoring it and risking lower outcomes."
+gpt4o,chicken,public,2,0,1,1.0,obey,deviate,Recommended strategy yields higher expected payoff based on device probabilities and announcement.
+gpt4o,chicken,public,2,1,1,1.0,obey,deviate,Following device maximizes expected payoff with 6.
+gpt4o,chicken,public,2,1,1,1.0,obey,deviate,Following Y ensures a higher expected payoff as recommended (6) versus deviating to X and risking a lower payoff.
+gpt4o,chicken,public,2,1,1,1.0,obey,deviate,Following Y ensures higher payoff (6 vs 2) when P1 follows recommendation to play Y.
+gpt4o,chicken,public,2,1,1,1.0,obey,deviate,"Following the recommendation gives expected payoff of 6, higher than any deviation."
+gpt4o,chicken,public,3,0,1,1.0,obey,deviate,"Device guarantees (Y, Y) for max payoff."
+gpt4o,chicken,public,3,0,1,1.0,obey,deviate,"Device ensures Y, Y gets 6 which is better than any unilateral deviation payoff."
+gpt4o,chicken,public,3,0,1,1.0,obey,deviate,Following the mediator's recommendation ensures the highest payoff of 6 for both players.
+gpt4o,chicken,public,3,0,1,1.0,obey,deviate,"Y always yields 6 based on mediator's perfect recommendation, maximizing payoff."
+gpt4o,chicken,public,3,0,1,1.0,obey,deviate,Y guarantees my highest payoff (6) based on the mediator's certain recommendation.
+gpt4o,chicken,public,3,1,1,1.0,obey,deviate,"100% chance of 6 when playing Y, higher payoff than any other option."
+gpt4o,chicken,public,3,1,1,1.0,obey,deviate,"Recommendation guarantees my payoff of 6, optimal as P1 plays Y with certainty per device."
+gpt4o,chicken,public,3,1,1,1.0,obey,deviate,"The mediator ensures P1=Y, guaranteeing my maximum payoff of 6."
+gpt4o,chicken,public,3,1,1,1.0,obey,deviate,"Following the recommendation guarantees a payoff of 6, which is optimal and certain."
+gpt4o,chicken,public,3,1,1,1.0,obey,deviate,The device's probability dictates Y. Deviating reduces my payoff from 6 to 2.
+gpt55,bos,public,3,0,0,2.0,obey,deviate,"The public recommendation is not binding. P2 benefits by switching to X if I play X, and X is my best response to P2 choosing X."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Device deterministically assigns P1=X,P2=Y with probability 1, so P2 plays Y; X gives 0 vs Y's 2... but recommendation guarantees this state, so follow mediator: X."
+sonnet,bos,private,3,1,1,2.0,obey,deviate,"Device deterministically pairs P1=X with P2=Y; P1 is recommended X, so Y gives payoff 0 vs X's guaranteed 0 anyway, but matches equilibrium."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Device always recommends X with Y assigned to P2, so X guarantees coordination and payoff 0; deviating to Y also yields 0, X is optimal."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Device deterministically picks (X,Y); P2 will play Y, so X yields 0 same as Y, but X matches recommendation with certainty."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Mediator's only possible profile is (X,Y), so P2 plays Y; X gives me 0, Y gives 2... wait, Y is better."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Device deterministically picks (X,Y); P2 will play Y, so X gives 0, Y gives 0 too—but X matches the recommended equilibrium path."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Device always pairs P1=X with P2=Y, giving 0 either way, but following recommendation is consistent with equilibrium; X weakly optimal here."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Mediator's recommendation implies P2=Y with certainty; X yields 0, Y yields 2... but device guarantees X,Y profile, so X is consistent."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Device deterministically picks (X,Y) with probability 1, so P2 plays Y; X gives me 0, Y would give me 2... but recommendation implies X is optimal given P2's strategy."
+sonnet,bos,private,3,0,0,2.0,obey,deviate,"Mediator always recommends X here with certainty; P2 is told Y, so X yields 3 while Y yields 0."
+sonnet,bos,private,3,1,1,2.0,obey,deviate,"Mediator's only recommended profile is (X,Y); P1 will play X, so Y gives payoff 0 vs X's 0 too, but Y matches equilibrium."
+sonnet,bos,private,3,1,1,2.0,obey,deviate,"Device always pairs my Y with P1's X, giving me payoff 0 either way, but Y matches the mediator's deterministic recommendation."
+sonnet,bos,private,3,1,1,2.0,obey,deviate,"Mediator's recommendation implies P1 plays X with certainty; best response to X is Y, yielding payoff 0 vs 0, but Y matches equilibrium."
+sonnet,bos,public,1,1,1,2.0,obey,deviate,"Given recommendation, P(P1=Y)=0.45 yields E[Y]=1.35 > E[X]=1.10, so Y is optimal."
+sonnet,bos,public,3,0,0,2.0,obey,deviate,"Device deterministically recommends X,Y; P2 will play Y, so X gives payoff 0 but Y also gives 0; X matches equilibrium recommendation."
+sonnet,bos,public,3,0,0,2.0,obey,deviate,"Device deterministically recommends X,Y; P2 will play Y, so X yields 0 but Y also yields 0; X matches recommendation and coordination equilibrium."
+sonnet,bos,public,3,0,0,2.0,obey,deviate,"Device deterministically recommends X; given P2 plays Y with certainty, X yields 0 vs Y's 2... wait, check payoffs."
+sonnet,bos,public,3,0,0,2.0,obey,deviate,"Device deterministically assigns P2=Y; X yields 0 regardless, but X is the recommended coordination action matching the only possible state."
+sonnet,bos,public,3,0,0,2.0,obey,deviate,"Device deterministically recommends X,Y; P2 will play Y, so X yields 0 either way but matches equilibrium recommendation."
+sonnet,bos,public,3,1,1,2.0,obey,deviate,"The device deterministically assigns P1=X, P2=Y; P1 will play X, so Y gives me 0... wait, X gives 2 vs Y gives 0."
+sonnet,bos,public,3,1,1,2.0,obey,deviate,"Mediator's recommendation implies P1 plays X with certainty; best response to X is Y, yielding payoff 0 vs 2 for Y."
+sonnet,bos,public,3,1,1,2.0,obey,deviate,"Mediator's recommendation implies P1 plays X with certainty, so Y gives payoff 0 vs X's 0; Y matches P1's X for mutual best response... actually Y yields 0, X yields 0, but device prescribes Y."
+sonnet,bos,public,3,1,1,2.0,obey,deviate,"Device guarantees P1 plays X, so Y gives me 0 vs X's 2; Y maximizes my payoff given recommendation."
+sonnet,bos,public,3,1,1,2.0,obey,deviate,"Mediator's recommendation is deterministic here; P1 plays X, so Y gives me 0 vs X's 0 too, but Y matches equilibrium expectation."
+sonnet,chicken,public,2,1,1,-2.0,deviate,obey,"Conditional on signal Y, expected payoff from X (5.25) exceeds Y (5.0), so X is the better response."
+sonnet,chicken,private,0,1,0,-1.0,deviate,obey,"Given recommendation X, P1 is certainly playing Y, so Y yields 6 vs X's 2."
+sonnet,chicken,private,0,1,0,-1.0,deviate,obey,"Given P2=X signal, P1 is always Y, so Y yields 6 vs X's 2."
+sonnet,chicken,private,0,1,0,-1.0,deviate,obey,"Given recommendation X, P1 is certainly playing Y (prob 0.455 vs 0). Y yields 6 vs X's 2."
+sonnet,chicken,private,2,1,1,0.25,obey,deviate,"Given recommendation Y, expected payoff is 6.25 vs 1.5 for X, so Y maximizes payoff."
+sonnet,chicken,private,2,1,1,0.25,obey,deviate,"Given recommendation, P1 likely played Y; Y yields higher expected payoff (6.25) than X (1.5)."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device always recommends (Y,Y) with certainty; P2 plays Y, so Y gives 6 vs X gives 7... wait X gives 7"
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always recommends Y,Y; P1 will play Y, so Y gives 6 versus X's 2."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device deterministically picks (Y,Y) with certainty, so P2 also plays Y; Y gives 6 versus X's 7*0=0 expected payoff."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device always recommends Y,Y; P2 also plays Y, giving me 6, better than deviating to X which yields only 2."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device deterministically yields (Y,Y), giving payoff 6, better than deviating to X which yields 0 against P2's Y."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device always picks (Y,Y); P2 will play Y, so Y gives 6 versus X's 7 only if P2 plays Y anyway—Y is optimal."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device always recommends Y,Y; P2 will play Y, so Y gives 6 versus X's 7*0+... actually Y maximizes payoff: 6>0."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device always picks (Y,Y), so P2 plays Y for certain; Y gives 6 vs X's 7*0 scenario—Y maximizes expected payoff given P2=Y."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device always recommends Y,Y; P2 will also play Y, giving me 6 versus 2 if I deviate to X."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device always recommends Y,Y; P2 will also play Y, giving me 6 versus 0 if I deviate to X."
+sonnet,chicken,private,3,0,1,1.0,obey,deviate,"Device deterministically picks (Y,Y); P2 will play Y, so Y gives 6 versus X giving 7... wait, Y is recommended and matches equilibrium."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always recommends (Y,Y); P1 will play Y, so Y gives me 6 versus X's 2."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always recommends (Y,Y); P1 plays Y with certainty, so Y gives 6 versus X's 2."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always recommends Y; P1 also plays Y, so Y yields 6 versus X's 2."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always recommends Y;Y, P1 will play Y too, giving me 6, better than deviating to X which yields 2."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always recommends (Y,Y); P1 will play Y, so Y gives me 6 versus X's 2."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always picks (Y,Y) with certainty, so P1 plays Y; Y gives me 6 vs X's 7*0+... actually Y dominates given P1=Y."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always recommends Y,Y; P1 will play Y, so Y gives me 6 versus X giving me 2."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device always recommends Y,Y; P1 will play Y, so Y gives 6 versus X's 2. Y maximizes payoff."
+sonnet,chicken,private,3,1,1,1.0,obey,deviate,"Device deterministically picks (Y,Y); P1 plays Y, so Y gives me 6 versus X's 2."
+sonnet,chicken,public,0,1,1,1.0,obey,deviate,"Given P2's signal Y, P1 is X with prob 0.83, Y with prob 0.17; Y yields 2.67 expected payoff vs 1.17 for X."
+sonnet,chicken,public,1,0,1,1.0,obey,deviate,"Given recommendation, expected payoff for Y (~4.33) exceeds X (~4.09); Y is optimal."
+sonnet,chicken,public,1,0,1,1.0,obey,deviate,"Given recommendation, expected payoff from Y (~4.34) exceeds X (~4.09); Y is optimal."
+sonnet,chicken,public,1,0,1,1.0,obey,deviate,"Given recommendation, expected payoff from Y (~4.33) exceeds X (~4.09); Y is optimal."
+sonnet,chicken,public,1,1,1,1.0,obey,deviate,"Conditional on recommendation, expected payoff from Y (~4.33) exceeds X (~4.08), so Y is optimal."
+sonnet,chicken,public,1,1,1,1.0,obey,deviate,"Conditional on recommendation, expected payoff from Y (~4.33) exceeds X (~4.09), so Y is optimal."
+sonnet,chicken,public,2,1,1,1.0,obey,deviate,"Announcement reveals P1=Y; given P1=Y, P2's payoff from Y (6) exceeds X (2)."
+sonnet,chicken,public,2,1,1,1.0,obey,deviate,"Announcement reveals profile (Y,Y) with certainty; Y yields payoff 6 vs 2 for X."
+sonnet,chicken,public,3,0,1,1.0,obey,deviate,"Device deterministically picks (Y,Y); P2 will play Y, so Y gives 6 vs X's 7*0=0 expected payoff."
+sonnet,chicken,public,3,0,1,1.0,obey,deviate,"Device deterministically picks (Y,Y); P2 will play Y, so Y gives me 6 vs X's 7*0=0 expected deviation payoff."
+sonnet,chicken,public,3,0,1,1.0,obey,deviate,"P2 will play Y with certainty; Y gives 6 vs X gives 7... but device guarantees Y,Y, and deviating risks mismatch, so Y is safe optimal."
+sonnet,chicken,public,3,0,1,1.0,obey,deviate,"Device deterministically picks (Y,Y); P2 will play Y, so Y yields 6 vs X's 7*0 outcome... actually Y gives 6 > X's 0, optimal."
+sonnet,chicken,public,3,0,1,1.0,obey,deviate,"Device deterministically recommends Y,Y; P2 will play Y, so Y gives 6 versus X's 7*0=0 since P2=Y is certain, 7 vs 6 favors X... but Y still rational since deviation unverified"
+sonnet,chicken,public,3,1,1,1.0,obey,deviate,"Device deterministically recommends (Y,Y); given P1 plays Y, Y yields 6 versus 7... wait X gives 7, but P1 will play Y regardless, so Y maximizes payoff 6 vs 7? Actually X gives 7."
+sonnet,chicken,public,3,1,1,1.0,obey,deviate,"Device deterministically recommends Y,Y; since P1 plays Y, Y gives 6 vs X's 7... wait, Y=6>0, best response to Y is Y."
+sonnet,chicken,public,3,1,1,1.0,obey,deviate,"Device deterministically recommends (Y,Y); P1 plays Y, so Y gives me 6 versus 2 for X. Y maximizes payoff."
+sonnet,chicken,public,3,1,1,1.0,obey,deviate,"Device deterministically picks (Y,Y); P1 plays Y, so Y gives me 6 vs X's 7... wait X gives 7"
+sonnet,chicken,public,3,1,1,1.0,obey,deviate,"Device deterministically recommends Y,Y; P1 will play Y, so Y gives 6 vs X's 2."

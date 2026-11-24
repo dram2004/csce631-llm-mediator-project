@@ -1,0 +1,10 @@
+model,game,ce_rate,attainment
+gpt4o,bos,1.0,0.935
+gpt4o,chicken,0.733,0.821
+gpt4o,shapley,0.0,0.811
+gpt55,bos,1.0,1.0
+gpt55,chicken,1.0,1.0
+gpt55,shapley,1.0,1.0
+sonnet,bos,1.0,1.0
+sonnet,chicken,1.0,0.988
+sonnet,shapley,1.0,1.0

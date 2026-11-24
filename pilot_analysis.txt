@@ -1,0 +1,49 @@
+Random-device baseline (Dirichlet(1) devices):
+    game  random_ce_rate  random_beats_best_ne_welfare  random_ce_and_beats_ne
+chicken          0.1458                        0.1788                  0.0342
+    bos          0.1570                        0.0000                  0.0000
+shapley          0.0000                        0.5262                  0.0000 
+
+Part A — by_model_objective:
+                    n  parse_rate  ...  gain_captured  dist_to_ce
+model  objective                   ...                           
+gpt4o  egalitarian  3         1.0  ...         -0.500       0.333
+       p1           3         1.0  ...          4.000       0.556
+       welfare      3         1.0  ...          0.357       0.333
+gpt55  egalitarian  3         1.0  ...          1.000       0.000
+       p1           3         1.0  ...          1.000       0.000
+       welfare      3         1.0  ...          1.000       0.000
+sonnet egalitarian  3         1.0  ...          1.000       0.000
+       p1           3         1.0  ...          1.000       0.000
+       welfare      3         1.0  ...          1.000       0.000
+
+[9 rows x 8 columns]
+
+Part A — by_model_game:
+                ce_rate  attainment
+model  game                        
+gpt4o  bos        1.000       0.944
+       chicken    0.667       0.929
+       shapley    0.000       1.000
+gpt55  bos        1.000       1.000
+       chicken    1.000       1.000
+       shapley    1.000       1.000
+sonnet bos        1.000       1.000
+       chicken    1.000       1.000
+       shapley    1.000       1.000
+
+Part A — H1:
+    model  viol_rate_p1  viol_rate_welfare_egal  fisher_p_one_sided
+0   gpt4o        0.6667                  0.3333              0.4048
+1   gpt55        0.0000                  0.0000              1.0000
+2  sonnet        0.0000                  0.0000              1.0000
+
+Part B parse rate: 1.000 over 60 calls
+
+Part B — obedience threshold (H2):
+  model  threshold     lo     hi  slope  qre_lambda  llf_free  llf_qre  n
+ gpt4o        NaN 88.252 88.252 -0.823       0.122    -5.834  -13.802 20
+ gpt55     -0.011 -0.201  0.184 40.480      49.987    -0.000   -0.000 20
+sonnet      3.360 -0.141 31.269  0.306       0.447   -10.980  -13.101 20 
+
+Figures and tables written to /Users/danilo/Documents/Fall_26/CSCE_631/mediator_ce/results/analysis_pilot

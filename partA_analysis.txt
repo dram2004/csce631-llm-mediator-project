@@ -1,0 +1,49 @@
+Random-device baseline (Dirichlet(1) devices):
+    game  random_ce_rate  random_beats_best_ne_welfare  random_ce_and_beats_ne
+chicken          0.1458                        0.1788                  0.0342
+    bos          0.1570                        0.0000                  0.0000
+shapley          0.0000                        0.5262                  0.0000 
+
+Part A — by_model_objective:
+                     n  parse_rate  ce_rate  eps_ce_rate  max_viol  attainment  gain_captured  dist_to_ce
+model  objective                                                                                         
+gpt4o  egalitarian  15         1.0    0.600        0.600     0.108       0.643         -0.993       0.398
+       p1           15         1.0    0.600        0.600     0.149       0.944          2.000       0.444
+       welfare      15         1.0    0.533        0.533     0.137       0.981          0.743       0.444
+gpt55  egalitarian  15         1.0    1.000        1.000     0.000       1.000          1.000       0.000
+       p1           15         1.0    1.000        1.000     0.000       1.000          1.000       0.000
+       welfare      15         1.0    1.000        1.000     0.000       1.000          1.000       0.000
+sonnet egalitarian  15         1.0    1.000        1.000     0.000       1.000          1.000       0.000
+       p1           15         1.0    1.000        1.000     0.000       0.988          1.000       0.000
+       welfare      15         1.0    1.000        1.000     0.000       1.000          1.000       0.000
+
+Part A — by_model_game:
+                ce_rate  attainment
+model  game                        
+gpt4o  bos        1.000       0.935
+       chicken    0.733       0.821
+       shapley    0.000       0.811
+gpt55  bos        1.000       1.000
+       chicken    1.000       1.000
+       shapley    1.000       1.000
+sonnet bos        1.000       1.000
+       chicken    1.000       0.988
+       shapley    1.000       1.000
+
+Part A — H1:
+    model  viol_rate_p1  viol_rate_welfare_egal  fisher_p_one_sided
+0   gpt4o           0.4                  0.4333              0.7012
+1   gpt55           0.0                  0.0000              1.0000
+2  sonnet           0.0                  0.0000              1.0000
+
+Part B parse rate: 1.000 over 60 calls
+
+Part B — obedience threshold (H2):
+  model  n  obey_neg  n_neg  obey_pos  n_pos  threshold     lo     hi  slope                                                  note
+ gpt4o 20     0.833     12       1.0      8        NaN    NaN    NaN -0.823                deviation does not increase with Delta
+ gpt55 20     1.000     12       0.0      8      -0.00 -0.250  0.250    NaN perfectly separated: obeys up to lo, deviates from hi
+sonnet 20     0.917     12       0.5      8       3.36 -0.141 31.269  0.306                                          logistic fit 
+
+Part B — 15 decisions disagree with the rational benchmark; stated reasons in partB_nonrational_reasons.csv
+
+Figures and tables written to /Users/danilo/Documents/Fall_26/CSCE_631/mediator_ce/results/analysis

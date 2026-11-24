@@ -1,0 +1,10 @@
+model,objective,n,parse_rate,ce_rate,eps_ce_rate,max_viol,attainment,gain_captured,dist_to_ce
+gpt4o,egalitarian,15,1.0,0.6,0.6,0.108,0.643,-0.993,0.398
+gpt4o,p1,15,1.0,0.6,0.6,0.149,0.944,2.0,0.444
+gpt4o,welfare,15,1.0,0.533,0.533,0.137,0.981,0.743,0.444
+gpt55,egalitarian,15,1.0,1.0,1.0,0.0,1.0,1.0,0.0
+gpt55,p1,15,1.0,1.0,1.0,0.0,1.0,1.0,0.0
+gpt55,welfare,15,1.0,1.0,1.0,0.0,1.0,1.0,0.0
+sonnet,egalitarian,15,1.0,1.0,1.0,0.0,1.0,1.0,0.0
+sonnet,p1,15,1.0,1.0,1.0,0.0,0.988,1.0,0.0
+sonnet,welfare,15,1.0,1.0,1.0,0.0,1.0,1.0,0.0
